@@ -35,7 +35,8 @@ namespace ConsoleApp1
                         RemoveMovieUI(manager);
                         break;
                     case "4":
-                        Console.WriteLine("Вихід з програми...");
+                        manager.SaveToFile();
+                        Console.WriteLine("Збереженно! Вихід з програми...");
                         isRunning = false;
                         break;
                     default:
