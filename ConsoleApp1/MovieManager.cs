@@ -19,6 +19,8 @@ namespace ConsoleApp1
         // CREATE: Додавання фільму
         public void AddMovie(Movie movie)
         {
+            int nextId = _movies.Count > 0 ? _movies.Max(m => m.Id) + 1 : 1;
+            movie.Id = nextId;
             _movies.Add(movie);
             Console.WriteLine($"\nУспіх! Фільм '{movie.Title}' успішно додано.");
         }
@@ -41,10 +43,10 @@ namespace ConsoleApp1
         }
 
         // DELETE: Видалення фільму за початком ID
-        public void RemoveMovie(string idSubstring)
+        public void RemoveMovie(int id)
         {
             // Шукаємо фільм, ID якого починається на введений рядок
-            var movieToRemove = _movies.FirstOrDefault(m => m.Id.ToString().StartsWith(idSubstring));
+            var movieToRemove = _movies.FirstOrDefault(m => m.Id == id);
 
             if (movieToRemove != null)
             {
@@ -53,7 +55,7 @@ namespace ConsoleApp1
             }
             else
             {
-                Console.WriteLine($"\nПомилка: Фільм з ID '{idSubstring}' не знайдено.");
+                Console.WriteLine($"\nПомилка: Фільм з ID '{id}' не знайдено.");
             }
         }
     }

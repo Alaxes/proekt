@@ -8,13 +8,11 @@ namespace ConsoleApp1
 {
     public class Movie
     {
-        // Унікальний ідентифікатор, генерується автоматично при створенні
-        public Guid Id { get; set; } = Guid.NewGuid();
-
+        public int Id { get; set; }
         public string Title { get; set; }
         public int Year { get; set; }
         public string Genre { get; set; }
-        public int Rating { get; set; } // Оцінка від 1 до 10
+        public int Rating { get; set; }
 
         // Конструктор для зручного створення фільму
         public Movie(string title, int year, string genre, int rating)
@@ -25,13 +23,13 @@ namespace ConsoleApp1
             Rating = rating;
         }
 
-        // Порожній конструктор потрібен для майбутнього JSON-збереження
+
         public Movie() { }
 
-        // Перевизначаємо метод ToString() для красивого виводу в консоль
+        
         public override string ToString()
         {
-            return $"[{Id.ToString().Substring(0, 8)}] {Title} ({Year}) - {Genre} | Оцінка: {Rating}/10";
+            return $"[{Id}] {Title} ({Year}) - {Genre} | Оцінка: {Rating}/10";
         }
     }
 }

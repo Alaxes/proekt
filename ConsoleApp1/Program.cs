@@ -80,9 +80,17 @@ namespace ConsoleApp1
         // Метод для видалення фільму через UI
         static void RemoveMovieUI(MovieManager manager)
         {
-            Console.Write("\nВведіть перші декілька символів ID фільму для видалення: ");
-            string id = Console.ReadLine();
-            manager.RemoveMovie(id);
+            Console.Write("\nВведіть ID фільму для видалення: ");
+
+            // Перевіряємо, чи користувач ввів саме число
+            if (int.TryParse(Console.ReadLine(), out int id))
+            {
+                manager.RemoveMovie(id);
+            }
+            else
+            {
+                Console.WriteLine("Помилка! Введіть коректне числове ID.");
+            }
         }
     }
 }
