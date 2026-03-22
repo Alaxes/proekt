@@ -27,7 +27,10 @@ namespace ConsoleApp1
             
             SaveToFile(); // Зберігаємо зміни у файл
         }
-
+        public List<Movie> GetMovies()
+        {
+            return _movies;
+        }
         public void ShowAllMovies()
         {
             if (_movies.Count == 0)

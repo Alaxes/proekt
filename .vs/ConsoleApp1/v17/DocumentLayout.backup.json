@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\alext\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB748047-E4FD-43F3-9814-B527ADF134DD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\alext\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\consoleapp1\\consoleapp1\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB748047-E4FD-43F3-9814-B527ADF134DD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{450FC3AA-682C-4EAC-9897-CF60CA807B96}|TestProject1\\TestProject1.csproj|c:\\users\\alext\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\consoleapp1\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{450FC3AA-682C-4EAC-9897-CF60CA807B96}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB748047-E4FD-43F3-9814-B527ADF134DD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\alext\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB748047-E4FD-43F3-9814-B527ADF134DD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB748047-E4FD-43F3-9814-B527ADF134DD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\alext\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\consoleapp1\\consoleapp1\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB748047-E4FD-43F3-9814-B527ADF134DD}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\moviemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB748047-E4FD-43F3-9814-B527ADF134DD}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\alext\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\consoleapp1\\consoleapp1\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,19 +31,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MovieManager.cs",
-              "DocumentMoniker": "C:\\Users\\alext\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ConsoleApp1\\ConsoleApp1\\MovieManager.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\MovieManager.cs",
-              "ToolTip": "C:\\Users\\alext\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ConsoleApp1\\ConsoleApp1\\MovieManager.cs",
-              "RelativeToolTip": "ConsoleApp1\\MovieManager.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwC0AAAAnAAAAAAAAAA==",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\alext\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ConsoleApp1\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\alext\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ConsoleApp1\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T09:58:24.39Z",
+              "WhenOpened": "2026-03-16T12:45:02.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MovieManager.cs",
+              "DocumentMoniker": "C:\\Users\\alext\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ConsoleApp1\\ConsoleApp1\\MovieManager.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\MovieManager.cs",
+              "ToolTip": "C:\\Users\\alext\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ConsoleApp1\\ConsoleApp1\\MovieManager.cs",
+              "RelativeToolTip": "ConsoleApp1\\MovieManager.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T09:58:24.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\alext\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ConsoleApp1\\ConsoleApp1\\Movie.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Movie.cs",
@@ -47,8 +63,7 @@
               "RelativeToolTip": "ConsoleApp1\\Movie.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA5wB8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T09:55:44.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-09T09:55:44.701Z"
             },
             {
               "$type": "Document",
@@ -58,7 +73,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\alext\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwF0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwDsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T09:44:28.49Z",
               "EditorCaption": ""
